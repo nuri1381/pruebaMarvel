@@ -22,6 +22,7 @@ public class PruebaMarvelApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PruebaMarvelApplication.class, args);
+	
 	}
 	
 	public static String sendPOST(String url,JSONObject inputJson) throws IOException {
